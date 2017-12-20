@@ -1,6 +1,7 @@
 string = "msdjdgf(^&%*(Aroha Technologies&^$^&*^CHJdjg"
 
 def string_format(text):
+  '''It removes special and junk characters from given string'''
   letter_list = []
   for letter in text:
     if letter.isalpha():

@@ -7,6 +7,7 @@ count = 1
 new_deck = []
 
 def shuffle_deck(card_deck, new_deck, count):
+  '''It gives a shuffle count required to get initial card sequence'''
   # input cards for comaprison
   deck = [x for x in xrange(52)]
   
