@@ -1,4 +1,5 @@
 def pow(x,n):
+  '''This is a function to calculate x power of n'''
   if x==0 or x==1 or n==1:
     return x
   elif x==-1:
